@@ -1,0 +1,41 @@
+{
+  "name": "testing-aws-stepfunctions-using-docker",
+  "version": "1.0.0",
+  "description": "Example of testing AWS Step Functions using Docker",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "eslint --fix .",
+    "lint": "eslint .",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "aws",
+    "stepfunctions",
+    "testing",
+    "docker"
+  ],
+  "author": "Jag Reehal",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@aws-sdk/client-sfn": "^3.687.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
+    "@total-typescript/ts-reset": "^0.6.1",
+    "@total-typescript/tsconfig": "^1.0.4",
+    "@types/eslint-config-prettier": "^6.11.3",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^22.9.0",
+    "@typescript-eslint/eslint-plugin": "^8.14.0",
+    "@typescript-eslint/parser": "^8.14.0",
+    "eslint": "9.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-unicorn": "^56.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.14.0",
+    "vite-tsconfig-paths": "^5.1.2",
+    "vitest": "^2.1.4"
+  }
+}
